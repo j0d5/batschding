@@ -1,0 +1,8 @@
+#include "Calibrator.h"
+#include "Color.h"
+Calibrator calibrator;
+Color* color;
+calibrator.setCurrentImage(grabImage);
+color = calibrator.getColorAtPosition(200, 200);
+printf("H: %d, S: %d, V: %d \n", color->GetH(), color->GetS(), color->GetV());
+delete color;

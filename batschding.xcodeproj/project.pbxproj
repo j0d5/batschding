@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F6C0A97138520DC0099055F /* batschding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C0A91138520DC0099055F /* batschding.cpp */; };
+		8FE4627C138696420022597A /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FE4627A138696420022597A /* Player.cpp */; };
+		8FE4627F138696570022597A /* Gamelogic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FE4627D138696570022597A /* Gamelogic.cpp */; };
+		8FE462821386A45B0022597A /* Output.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FE462801386A45B0022597A /* Output.cpp */; };
+		8FE462851386A4650022597A /* Color.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FE462831386A4650022597A /* Color.cpp */; };
+		8FE462881386ACFC0022597A /* Tracker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FE462861386ACFB0022597A /* Tracker.cpp */; };
+		8FE4628B1386AD100022597A /* Calibrator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FE462891386AD0F0022597A /* Calibrator.cpp */; };
+		8FF669EC138BC886005DAAD1 /* Rectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FF669EA138BC886005DAAD1 /* Rectangle.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8F6C0A79138520710099055F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8F6C0A91138520DC0099055F /* batschding.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = batschding.cpp; sourceTree = "<group>"; };
+		8F6C0A9B138521480099055F /* batschding */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = batschding; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FE4627A138696420022597A /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		8FE4627B138696420022597A /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		8FE4627D138696570022597A /* Gamelogic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Gamelogic.cpp; sourceTree = "<group>"; };
+		8FE4627E138696570022597A /* Gamelogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gamelogic.h; sourceTree = "<group>"; };
+		8FE462801386A45B0022597A /* Output.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Output.cpp; sourceTree = "<group>"; };
+		8FE462811386A45B0022597A /* Output.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Output.h; sourceTree = "<group>"; };
+		8FE462831386A4650022597A /* Color.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Color.cpp; sourceTree = "<group>"; };
+		8FE462841386A4650022597A /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		8FE462861386ACFB0022597A /* Tracker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tracker.cpp; sourceTree = "<group>"; };
+		8FE462871386ACFC0022597A /* Tracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tracker.h; sourceTree = "<group>"; };
+		8FE462891386AD0F0022597A /* Calibrator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Calibrator.cpp; sourceTree = "<group>"; };
+		8FE4628A1386AD0F0022597A /* Calibrator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calibrator.h; sourceTree = "<group>"; };
+		8FF669EA138BC886005DAAD1 /* Rectangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rectangle.cpp; sourceTree = "<group>"; };
+		8FF669EB138BC886005DAAD1 /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F6C0A78138520710099055F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F6C0A70138520710099055F = {
+			isa = PBXGroup;
+			children = (
+				8F6C0A90138520DC0099055F /* src */,
+				8F6C0A9B138521480099055F /* batschding */,
+			);
+			sourceTree = "<group>";
+		};
+		8F6C0A90138520DC0099055F /* src */ = {
+			isa = PBXGroup;
+			children = (
+				8FE462801386A45B0022597A /* Output.cpp */,
+				8FE462811386A45B0022597A /* Output.h */,
+				8F6C0A91138520DC0099055F /* batschding.cpp */,
+				8FE4627A138696420022597A /* Player.cpp */,
+				8FE4627B138696420022597A /* Player.h */,
+				8FE4627D138696570022597A /* Gamelogic.cpp */,
+				8FE4627E138696570022597A /* Gamelogic.h */,
+				8FE462831386A4650022597A /* Color.cpp */,
+				8FE462841386A4650022597A /* Color.h */,
+				8FE462861386ACFB0022597A /* Tracker.cpp */,
+				8FE462871386ACFC0022597A /* Tracker.h */,
+				8FE462891386AD0F0022597A /* Calibrator.cpp */,
+				8FE4628A1386AD0F0022597A /* Calibrator.h */,
+				8FF669EA138BC886005DAAD1 /* Rectangle.cpp */,
+				8FF669EB138BC886005DAAD1 /* Rectangle.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F6C0A7A138520710099055F /* batschding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F6C0A84138520710099055F /* Build configuration list for PBXNativeTarget "batschding" */;
+			buildPhases = (
+				8F6C0A77138520710099055F /* Sources */,
+				8F6C0A78138520710099055F /* Frameworks */,
+				8F6C0A79138520710099055F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = batschding;
+			productName = batschding;
+			productReference = 8F6C0A9B138521480099055F /* batschding */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F6C0A72138520710099055F /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 8F6C0A75138520710099055F /* Build configuration list for PBXProject "batschding" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8F6C0A70138520710099055F;
+			productRefGroup = 8F6C0A70138520710099055F;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F6C0A7A138520710099055F /* batschding */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F6C0A77138520710099055F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F6C0A97138520DC0099055F /* batschding.cpp in Sources */,
+				8FE4627C138696420022597A /* Player.cpp in Sources */,
+				8FE4627F138696570022597A /* Gamelogic.cpp in Sources */,
+				8FE462821386A45B0022597A /* Output.cpp in Sources */,
+				8FE462851386A4650022597A /* Color.cpp in Sources */,
+				8FE462881386ACFC0022597A /* Tracker.cpp in Sources */,
+				8FE4628B1386AD100022597A /* Calibrator.cpp in Sources */,
+				8FF669EC138BC886005DAAD1 /* Rectangle.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8F6C0A82138520710099055F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8F6C0A83138520710099055F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8F6C0A85138520710099055F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/opencv/2.2/include,
+					/usr/local/Cellar/opencv/2.2/include/opencv,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/opencv/2.2/lib;
+				OTHER_LDFLAGS = (
+					"-lopencv_core",
+					"-lopencv_imgproc",
+					"-lopencv_highgui",
+					"-lopencv_ml",
+					"-lopencv_video",
+					"-lopencv_features2d",
+					"-lopencv_calib3d",
+					"-lopencv_objdetect",
+					"-lopencv_contrib",
+					"-lopencv_legacy",
+					"-lopencv_flann",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F6C0A86138520710099055F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/opencv/2.2/include,
+					/usr/local/Cellar/opencv/2.2/include/opencv,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/opencv/2.2/lib;
+				OTHER_LDFLAGS = (
+					"-lopencv_core",
+					"-lopencv_imgproc",
+					"-lopencv_highgui",
+					"-lopencv_ml",
+					"-lopencv_video",
+					"-lopencv_features2d",
+					"-lopencv_calib3d",
+					"-lopencv_objdetect",
+					"-lopencv_contrib",
+					"-lopencv_legacy",
+					"-lopencv_flann",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F6C0A75138520710099055F /* Build configuration list for PBXProject "batschding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F6C0A82138520710099055F /* Debug */,
+				8F6C0A83138520710099055F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F6C0A84138520710099055F /* Build configuration list for PBXNativeTarget "batschding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F6C0A85138520710099055F /* Debug */,
+				8F6C0A86138520710099055F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F6C0A72138520710099055F /* Project object */;
+}
