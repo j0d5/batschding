@@ -8,7 +8,7 @@
 
 #include "Rectangle.h"
 
-Rectangle::Rectangle(int posX = 0, int posY = 0, int width = 10, int height = 10) {
+Rectangle::Rectangle(int posX, int posY, int width, int height) {
     this->posX = posX;
     this->posY = posY;
     this->width = width;

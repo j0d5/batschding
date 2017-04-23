@@ -16,7 +16,7 @@ class Rectangle {
     int height;
     
 public:
-    Rectangle(int posX, int posY, int width, int height);
+    Rectangle(int posX = 0, int posY = 0, int width = 10, int height = 10);
     ~Rectangle();
     
     void setPosition(int x, int y);

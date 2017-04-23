@@ -53,7 +53,7 @@ void LiveLoop()
     cvSetMouseCallback("Live", mouseHandler, NULL);
     
     // create connection to camera
-    CvCapture* capture = cvCaptureFromCAM(1);
+    CvCapture* capture = cvCaptureFromCAM(0);
     
     // init camera
     cvSetCaptureProperty( capture, CV_CAP_PROP_FRAME_WIDTH, MY_IMAGE_WIDTH ); 

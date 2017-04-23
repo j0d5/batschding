@@ -9,7 +9,7 @@
 
 #include <sys/types.h>
 #include <stdio.h>
-#include "cv.h"
+#include <cv.h>
 #include "Color.h"
 #include "stdio.h"
 
